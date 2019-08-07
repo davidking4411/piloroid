@@ -27,7 +27,7 @@ GPIO.output(19,False)
 photoPath = "/home/pi/Documents/Piloroidpics/"
 photoName = time.strftime("%b-%d-%Y^%H_%M_%S") + ".png"
 photoResize = 512, 384
-photoTitle = "David's Piloroid!"
+photoTitle = "Piloroid Photo"
 
 #setup printer trying both USB ports
 try:
